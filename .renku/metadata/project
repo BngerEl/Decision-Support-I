@@ -17,7 +17,7 @@
     "@renku_data_type": "datetime.datetime",
     "@renku_data_value": "2023-09-11T12:03:05.120799+00:00"
   },
-  "description": "",
+  "description": "Mise à disposition d'une plate-forme pour l'implémentation de programmes linéaires avec le langage Julia.",
   "id": "/projects/elise.bangerter/decision-support-i-23-24",
   "keywords": [],
   "minimum_renku_version": "2.4.0",
