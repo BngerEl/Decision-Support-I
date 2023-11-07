@@ -2,7 +2,7 @@
 
 julia_version = "1.9.0"
 manifest_format = "2.0"
-project_hash = "fd8cc02b77b36796168595138206cb1beb99d5d0"
+project_hash = "3f596dd9c55c45d31e26e98d0cf2a3acdd721718"
 
 [[deps.ASL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -148,6 +148,18 @@ deps = ["LazyArtifacts", "Libdl", "MathOptInterface"]
 git-tree-sha1 = "b09256a9ae040fc87e7a077ea53898dcad77922e"
 uuid = "2e9cd046-0924-5485-92f1-d5272153d98b"
 version = "1.0.3"
+
+[[deps.HiGHS]]
+deps = ["HiGHS_jll", "MathOptInterface", "PrecompileTools", "SparseArrays"]
+git-tree-sha1 = "fce13308f09771b160232903cad57be39a8a0ebb"
+uuid = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
+version = "1.7.5"
+
+[[deps.HiGHS_jll]]
+deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl"]
+git-tree-sha1 = "10bf0ecdf70f643bfc1948a6af0a98be3950a3fc"
+uuid = "8fd58aa0-07eb-5a78-9b36-339c94fd15ea"
+version = "1.6.0+0"
 
 [[deps.InteractiveUtils]]
 deps = ["Markdown"]
