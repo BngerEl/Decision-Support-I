@@ -1,4 +1,4 @@
-# Decision Support I - 23-24
+# Decision Support I
 
 ## Introduction
 
