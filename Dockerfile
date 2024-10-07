@@ -33,18 +33,13 @@ FROM renku/renkulab-julia:1.9.0-0.24.0
 # Uncomment and adapt if your python, R, or Julia packages require extra linux (ubuntu) software
 # e.g. the following installs apt-utils and vim; each pkg on its own line, all lines
 # except for the last end with backslash '\' to continue the RUN line
-
-USER root
-RUN wget -q https://packages.gurobi.com/10.0/gurobi10.0.3_linux64.tar.gz \
-      && tar xf gurobi10.0.3_linux64.tar.gz -C /opt/ \
-      && rm gurobi10.0.3_linux64.tar.gz
-
+#
+# USER root
 # RUN apt-get update && \
 #    apt-get install -y --no-install-recommends \
 #    apt-utils \
 #    vim
-
-USER ${NB_USER}
+# USER ${NB_USER}
 
 # install the python dependencies
 COPY requirements.txt environment.yml /tmp/
