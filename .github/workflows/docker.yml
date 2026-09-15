@@ -6,7 +6,6 @@ on:
       - master
     paths:
       - "Dockerfile"
-      - "Project.toml"
       - ".github/workflows/docker.yml"
 
   workflow_dispatch:
